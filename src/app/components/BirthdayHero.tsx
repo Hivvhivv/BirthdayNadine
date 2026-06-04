@@ -8,7 +8,7 @@ export function BirthdayHero() {
       {/* Background Image */}
       <div className="absolute inset-0 opacity-30">
         <ImageWithFallback 
-          src="https://images.unsplash.com/photo-1689601535474-195d10eca664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGJpcnRoZGF5JTIwYmFsbG9vbnMlMjBkZWNvcmF0aW9uc3xlbnwxfHx8fDE3NTU4ODE2NzR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+          src="images/nadine.svg"
           alt="Happy 21st Birthday balloons background"
           className="w-full h-full object-cover"
         />
@@ -124,8 +124,10 @@ export function BirthdayHero() {
           transition={{ duration: 0.8, delay: 0.9 }}
           className="text-xl md:text-2xl text-pink-700 max-w-2xl mx-auto leading-relaxed"
         >
-          Welcome to your twenties! Today we celebrate this milestone and all the amazing adventures ahead. 
-          You make every day brighter with your beautiful smile and loving heart. 🥂
+          Cheers to 21! 🌷 
+          I hope this new chapter brings you endless happiness, exciting adventures, and all the love you deserve. Thank you for being such an incredible part of my life and for making every moment brighter just by being yourself. 
+          May you always find reasons to smile, confidence to follow your dreams, and strength to overcome every challenge that comes your way. No matter what happens, I hope you always remember how special, valued, and loved you are.
+          Here's to your 21st birthday and to all the beautiful memories waiting to be made. 🥂✨
         </motion.p>
 
         <motion.div
@@ -136,7 +138,7 @@ export function BirthdayHero() {
         >
           <Heart size={40} className="text-pink-500" fill="currentColor" />
           <Heart size={40} className="text-rose-500" fill="currentColor" />
-          <Heart size={40} className="text-fuchsia-500" fill="currentColor" />
+          <Heart size={40} className="text-pink-500" fill="currentColor" />
         </motion.div>
       </div>
     </div>

@@ -273,7 +273,7 @@ export function LoveQuestion({ onYesClicked }: LoveQuestionProps) {
                 className="mt-8 p-4 bg-pink-100 rounded-lg border border-pink-200"
               >
                 <p className="text-pink-700 font-medium">
-                  Aww, I love you too! Preparing your birthday surprise... 💕
+                  Aww, I love you too! Preparing your birthday surprise...wlee :p 💕
                 </p>
               </motion.div>
             )}

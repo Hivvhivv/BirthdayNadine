@@ -2,28 +2,50 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Heart, Send } from 'lucide-react';
 import { Button } from './ui/button';
+import emailjs from '@emailjs/browser';
 
 export function EnvelopeWish() {
+  emailjs.init("9apPb7eFBQGiGEVVM");
   const [isOpen, setIsOpen] = useState(false);
   const [wish, setWish] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isClosing, setIsClosing] = useState(false);
 
-  const handleSubmit = () => {
-    if (wish.trim()) {
-      setIsClosing(true);
+   const handleSubmit = async () => {
+
+  if (!wish.trim()) return;
+
+  try {
+
+    await emailjs.send(
+      "service_y6c4ne7",
+      "template_c2r1qn1",
+      {
+        message: wish,
+        recipient_name: "Nadine",
+        sent_at: new Date().toLocaleString()
+      }
+    );
+
+    setIsClosing(true);
+
+    setTimeout(() => {
+      setIsSubmitted(true);
+      setIsOpen(false);
+      setIsClosing(false);
+
       setTimeout(() => {
-        setIsSubmitted(true);
-        setIsOpen(false);
-        setIsClosing(false);
-        // Reset after animation
-        setTimeout(() => {
-          setIsSubmitted(false);
-          setWish('');
-        }, 3000);
-      }, 1500);
-    }
-  };
+        setIsSubmitted(false);
+        setWish('');
+      }, 3000);
+
+    }, 1500);
+
+  } catch (error) {
+    console.error(error);
+    alert("Failed to send email 💔");
+  }
+};
 
   return (
     <div className="py-20 bg-gradient-to-b from-pink-200 to-rose-100 relative overflow-hidden">
@@ -35,10 +57,10 @@ export function EnvelopeWish() {
           className="text-center mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-pink-600 mb-4">
-            Send Your Birthday Wish
+            A Little Message From You
           </h2>
           <p className="text-xl text-pink-700">
-            Click the envelope to write your special message for Nadine! 💌
+            Before you leave, I'd love to hear what's on your heart. 💕💌
           </p>
         </motion.div>
 
@@ -128,9 +150,9 @@ export function EnvelopeWish() {
                     >
                       <div className="text-6xl mb-3">💌</div>
                       <h3 className="text-3xl font-bold text-pink-600 mb-2">
-                        Write Your Wish for Nadine
+                        Write Your Wish for me or us
                       </h3>
-                      <p className="text-pink-700">Share your heartfelt birthday message</p>
+                      <p className="text-pink-700">A few words from you would mean the world to me 🤍</p>
                     </motion.div>
 
                     <motion.div

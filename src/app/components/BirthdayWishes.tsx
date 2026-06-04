@@ -6,18 +6,18 @@ export function BirthdayWishes() {
   const wishes = [
     {
       icon: Heart,
-      title: "With All My Love",
+      title: "Be Loved",
       message: "Every day with you feels like a celebration. Your kindness, beauty, and amazing spirit make life so much sweeter."
     },
     {
       icon: Star,
-      title: "You're My Star",
-      message: "You light up every room you enter and bring magic to the ordinary. Today we celebrate the incredible person you are."
+      title: "Stay Beautiful",
+      message: "Not just in appearance, but in heart and spirit. May your kindness continue to inspire everyone around you."
     },
     {
       icon: Sparkles,
-      title: "Shine Bright",
-      message: "May this new year of your life be filled with endless adventures, laughter, and all the happiness you deserve."
+      title: "Make Memories",
+      message: "I hope your 21st year is filled with unforgettable moments, exciting adventures, and countless reasons to smile."
     }
   ];
 

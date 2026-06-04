@@ -15,7 +15,7 @@ export function PasscodeEntry({ onCorrectPasscode }: PasscodeEntryProps) {
   const [attempts, setAttempts] = useState(0);
   
   // You can change this secret code to whatever you want
-  const SECRET_CODE = 'iloveyou';
+  const SECRET_CODE = 'i love you';
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -33,9 +33,10 @@ export function PasscodeEntry({ onCorrectPasscode }: PasscodeEntryProps) {
   };
 
   const hints = [
-    "Think about what's in my heart... 💕",
-    "It's what I whisper to you every day... 💖",
-    "Three little words that mean everything... 💘"
+    "First word: it's me... 🌙",
+    "Second word: a feeling... ✨",
+    "Third word: someone special... 🌷",
+    "Put them together... 💫"
   ];
 
   return (
