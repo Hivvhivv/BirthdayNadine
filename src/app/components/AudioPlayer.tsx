@@ -67,7 +67,7 @@ export function AudioPlayer() {
         ref={audioRef}
         loop
         // Using a romantic piano instrumental (placeholder - you can replace with your own)
-        src="https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3"
+        src="https://res.cloudinary.com/dv7ul6sck/video/upload/q_auto/f_auto/v1781067087/Bryan_Adams_-_Heaven_Classic_Version_y5fvrf.mp3"
       />
 
       {/* Floating music control button */}

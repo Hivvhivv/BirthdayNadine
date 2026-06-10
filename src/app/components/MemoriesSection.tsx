@@ -12,7 +12,7 @@ interface MemoriesSectionProps {
 export function MemoriesSection({ onWishClick, onGalleryClick, onDinnerClick }: MemoriesSectionProps) {
   const memories = [
     {
-      src: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsb3ZlJTIwbGV0dGVyJTIwaGVhcnR8ZW58MHx8fHwxNzA5NzMxMjAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      src: "https://res.cloudinary.com/dv7ul6sck/image/upload/v1781067293/Every_day_is_a_new_chance_pink_quote_hqbfjt.jpg",
       alt: "Love letter and hearts",
       caption: "My Heartfelt Wishes",
       subtitle: "A special message for you",
@@ -21,7 +21,7 @@ export function MemoriesSection({ onWishClick, onGalleryClick, onDinnerClick }: 
       onClick: onWishClick
     },
     {
-      src: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjByb21hbnRpYyUyMG1lbW9yaWVzfGVufDB8fHx8MTcwOTczMTIwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      src: "https://res.cloudinary.com/dv7ul6sck/image/upload/v1781071865/lovestori_flqy0b.png",
       alt: "Romantic memories",
       caption: "Our Love Story Gallery",
       subtitle: "Beautiful moments together",
@@ -30,7 +30,7 @@ export function MemoriesSection({ onWishClick, onGalleryClick, onDinnerClick }: 
       onClick: onGalleryClick
     },
     {
-      src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMGRpbm5lciUyMHJlc3RhdXJhbnR8ZW58MHx8fHwxNzA5NzMxMjAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      src: "https://res.cloudinary.com/dv7ul6sck/image/upload/v1781076074/dinnerdate_wdpekj.png",
       alt: "Romantic dinner",
       caption: "Birthday Dinner Date",
       subtitle: "Join me for a special evening",

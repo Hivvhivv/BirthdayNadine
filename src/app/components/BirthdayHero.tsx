@@ -8,7 +8,7 @@ export function BirthdayHero() {
       {/* Background Image */}
       <div className="absolute inset-0 opacity-30">
         <ImageWithFallback 
-          src="images/nadine.svg"
+          src="https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781066483/IMG_0430_bwjno0.heic"
           alt="Happy 21st Birthday balloons background"
           className="w-full h-full object-cover"
         />

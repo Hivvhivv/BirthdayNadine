@@ -78,7 +78,7 @@ export function DinnerInvitation({ onClose }: DinnerInvitationProps) {
                     <Calendar className="text-pink-500 mt-1 flex-shrink-0" size={24} />
                     <div>
                       <p className="font-semibold text-pink-700">Date</p>
-                      <p className="text-pink-600">[Your Special Date]</p>
+                      <p className="text-pink-600">[20 June 2026]</p>
                     </div>
                   </div>
 
@@ -86,7 +86,7 @@ export function DinnerInvitation({ onClose }: DinnerInvitationProps) {
                     <Clock className="text-pink-500 mt-1 flex-shrink-0" size={24} />
                     <div>
                       <p className="font-semibold text-pink-700">Time</p>
-                      <p className="text-pink-600">7:00 PM - A night to remember</p>
+                      <p className="text-pink-600">6:00 PM - A night to remember</p>
                     </div>
                   </div>
 
@@ -94,7 +94,7 @@ export function DinnerInvitation({ onClose }: DinnerInvitationProps) {
                     <MapPin className="text-pink-500 mt-1 flex-shrink-0" size={24} />
                     <div>
                       <p className="font-semibold text-pink-700">Location</p>
-                      <p className="text-pink-600">[Your Favorite Restaurant]</p>
+                      <p className="text-pink-600">[At Henshin Restaurant]</p>
                     </div>
                   </div>
                 </div>
@@ -121,7 +121,7 @@ export function DinnerInvitation({ onClose }: DinnerInvitationProps) {
                   </h4>
                   <div className="aspect-square rounded-lg overflow-hidden mb-4 border-2 border-pink-200">
                     <ImageWithFallback
-                      src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwZHJlc3MlMjBwaW5rJTIwZm9ybWFsfGVufDB8fHx8MTcwOTczMTIwMHww&ixlib=rb-4.1.0&q=80&w=400"
+                      src="https://res.cloudinary.com/dv7ul6sck/image/upload/v1781076473/download_6_qmfz7w.jpg"
                       alt="Elegant dress suggestion"
                       className="w-full h-full object-cover"
                     />
@@ -140,7 +140,7 @@ export function DinnerInvitation({ onClose }: DinnerInvitationProps) {
                   </h4>
                   <div className="aspect-square rounded-lg overflow-hidden mb-4 border-2 border-blue-200">
                     <ImageWithFallback
-                      src="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZW4lMjBzdWl0JTIwZm9ybWFsJTIwZWxlZ2FudHxlbnwwfHx8fDE3MDk3MzEyMDB8MA&ixlib=rb-4.1.0&q=80&w=400"
+                      src="https://res.cloudinary.com/dv7ul6sck/image/upload/v1781076599/download_6_kwvlhc.jpg"
                       alt="Formal suit suggestion"
                       className="w-full h-full object-cover"
                     />
