@@ -6,11 +6,14 @@ export function BirthdayHero() {
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-pink-100 via-rose-50 to-pink-200 flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 opacity-30">
-        <ImageWithFallback 
-          src="https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781066483/IMG_0430_bwjno0.heic"
+      <div className="absolute inset-0 opacity-65">
+        <video 
+          src="https://res.cloudinary.com/dv7ul6sck/video/upload/q_auto/f_auto/v1781613881/copy_7EB6C047-C612-4A93-9FD4-6CD5084554FC_d1rsef.mov"
           alt="Happy 21st Birthday balloons background"
           className="w-full h-full object-cover"
+          autoPlay
+          loop
+          muted
         />
       </div>
 

@@ -40,38 +40,74 @@ export function PhotoGallery({
 
   const categories: Category[] = [
     {
-      id: "adventures",
-      title: "Our Adventures",
-      emoji: "🌍",
+      id: "FIrst",
+      title: "Our First Meet",
+      emoji: "🧚‍♀️",
       coverImage:
-        "https://images.unsplash.com/photo-1629401681628-a37c83eb57d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBhZHZlbnR1cmUlMjB0cmF2ZWwlMjBoa2ltaW5n8ZW58MXx8fHwxNzc2MjQ1NzM3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      description: "All our exciting adventures together",
+        "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781621815/first_gotbkk.png",
+      description: "A simple hello that turned into countless unforgettable memories.",
       photos: [
         {
-          src: "https://images.unsplash.com/photo-1581779124574-bc0da275e520?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjByb21hbnRpYyUyMHN1bnNldHxlbnwxfHx8fDE3NTU4ODE4NDB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Couple at romantic sunset",
-          caption: "Golden Hour Adventures",
-          hoverText: "Watching the sunset together, creating memories that last forever",
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781622322/Screenshot_2021-06-11-19-49-13-23_hzthwt.jpg",
+          alt: "Pim",
+          caption: "Gift Hunting PIM 🎁",
+          hoverText: "That day we went around looking for the gift he wanted.",
+          tall: true,
+        }, 
+
+        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781623103/First_draw_moaoas.png",
+          alt: "Draw",
+          caption: "First Artwork 🎨",
+          hoverText: "The first drawing you made for me, a gift filled with creativity, effort, and love. but inside there was an unknown person",
+        },
+        
+        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781623322/Screenshot_2022-05-24-18-47-41-41_99c04817c0de5652397fc8b56c3b3817_ywz0em.jpg",
+          alt: "Couple with friends",
+          caption: "My Calon pacar gueh with my friends 👫",
+          hoverText: "A wonderful day spent together, filled with laughter and friendship",
           tall: true,
         },
+
         {
-          src: "https://images.unsplash.com/photo-1653151189412-c190a965ca4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMGhlYXJ0JTIwYmFsbG9vbnN8ZW58MXx8fHwxNzU1ODgxODQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Romantic heart balloons",
-          caption: "Balloon Adventures",
-          hoverText: "Flying high on love and laughter, with you by my side",
-        },
-        {
-          src: "https://images.unsplash.com/photo-1653688529238-1326ab9eeab9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBsb3ZlJTIwbmF0dXJlfGVufDF8fHx8MTc1NTg4MTg0MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Couple in nature",
-          caption: "Nature Explorations",
-          hoverText: "Discovering the world together, hand in hand through nature's beauty",
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781623731/Screenshot_2026-06-16_222830_d33ic7.png",
+          alt: "First Holding",
+          caption: "Holding Hands Modus Nadine💕",
+          hoverText: "A simple touch that made my heart feel closer to yours than ever before",
           tall: true,
         },
+
         {
-          src: "https://images.unsplash.com/photo-1650538230322-069d33d0fdbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBjaXR5JTIwcm9tYW50aWN8ZW58MXx8fHwxNzU1ODgxODQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "City adventures",
-          caption: "City Explorations",
-          hoverText: "Urban adventures and romantic city nights with my favorite person",
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781624137/IMG-20220918-WA0076_yt66hi.jpg",
+          alt: "note",
+          caption: "First Note From You📝",
+          hoverText: "Pertama kali kamu memberikan catatan kecil yang penuh perhatian di dalam ulang tahunku",
+          tall: true,
+        },
+
+        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781624329/Screenshot_2022-10-06-20-02-09-69_1c337646f29875672b5a61192b9010f9_deqlyd.jpg",
+          alt: "New trend",
+          caption: "First Trend We Followed👗",
+          hoverText: "First time we posted about the october trend, and we look so cute in that picture",
+          tall: true,
+        },
+
+        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781624690/apa_r1lzyg.png",
+          alt: "Pim2",
+          caption: "Whatttt ?????????? ",
+          hoverText: "no description",
+          tall: true,
+        },
+
+        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781625109/Screenshot_2026-06-16_225130_az4x4m.png",
+          alt: "Recreate Pim",
+          caption: "Recreate Pim with relationship status",
+          hoverText: "HAHAHA Akhirnya ni yaa recreate foto pim dengan status baru",
+          tall: true,
         },
       ],
     },
@@ -80,83 +116,318 @@ export function PhotoGallery({
       title: "Romantic Dinners",
       emoji: "🍽️",
       coverImage:
-        "https://images.unsplash.com/photo-1713026464108-c9929157ed55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMGRpbm5lciUyMGNhbmRsZXMlMjByZXN0YXVyYW50fGVufDF8fHx8MTc3NjI0NTczN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      description: "Candlelight dinners and date nights",
+        "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781626818/%D0%A3%D0%B6%D0%B8%D0%BD_%D0%BF%D1%80%D0%B8_%D1%81%D0%B2%D0%B5%D1%87%D0%B0%D1%85___Candlelight_Dinner_ge26mp.jpg",
+      description: "Every dinner date became a special memory, filled with love, smiles, and meaningful conversations.",
       photos: [
         {
-          src: "https://images.unsplash.com/photo-1532302584927-8bd4b6118390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMGRpbm5lciUyMGNhbmRsZXN8ZW58MXx8fHwxNzU1ODgxODQxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781631914/IMG_0356_ecsdxr.jpg",
           alt: "Romantic dinner with candles",
-          caption: "Candlelight Dinners",
-          hoverText: "Intimate evenings filled with love, laughter, and delicious food",
+          caption: "Our First Anniversary Dinner ✨",
+          hoverText: "The perfect way to celebrate our first milestone, surrounded by love, smiles, and happiness",
         },
         {
-          src: "https://images.unsplash.com/photo-1564636242997-77953084df48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMGRpbm5lciUyMGRhdGV8ZW58MXx8fHwxNzU1ODgxMjUzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Romantic dinner date",
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781632199/IMG_1166_czljdo.heic",
+          alt: "Our Iftar Together ",
           caption: "Date Night Magic",
-          hoverText: "Every date night with you is pure magic and romance",
+          hoverText: "A special Ramadan evening filled with good food ",
           tall: true,
         },
         {
-          src: "https://images.unsplash.com/photo-1643188626920-f780792e7f84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMHBpY25pYyUyMHBhcmt8ZW58MXx8fHwxNzU1ODgxODQyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Romantic picnic",
-          caption: "Perfect Picnics",
-          hoverText: "Sunny afternoons and perfect picnics in the park with my love",
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781632247/IMG_2413_wjblbm.heic",
+          alt: "Birthday Dinner",
+          caption: "My Birthday Dinner 🎂",
+          hoverText: "A special birthday celebration made even more meaningful because I got to spend it with you.",
         },
+
+       {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781632631/IMG_5139_qm75fd.heic",
+          alt: "My Girlfriend's Birthday",
+          caption: "My Girlfriend's Birthday Dinner ❤️",
+          hoverText: "Celebrating the most special person in my life with a wonderful evening filled with love",
+        },
+
+        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781632848/IMG_2556_snhudk.heic",
+          alt: "gorlfriend's ",
+          caption: "My Girl's Special Day",
+          hoverText: "Seeing your smile across the table was all I needed to make the night perfect.",
+        },
+
+        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781632899/IMG_8694_kjb0ey.heic",
+          alt: "Anniversary 2",
+          caption: "Another Year with You ❤️",
+          hoverText: "One more year of love, countless memories, and a million reasons to be thankful for having you by my side",
+        },
+
+        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781633157/IMG_4089_fdd6yp.heic",
+          alt: "Celebrate",
+          caption: "Celebrating Her ❤️🎂",
+          hoverText: "A special dinner to celebrate the amazing girl who makes every day brighter.",
+        },
+
+       {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781633283/IMG_5675_qz8m6x.heic",
+          alt: "Romanti",
+          caption: "Celebrating Us 🥂",
+          hoverText: "Sunny afternoons and perfect sunsets in the park with my love",
+        },
+
+       {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781633411/IMG_2830_sry2sl.heic",
+          alt: "sec iftar",
+          caption: "Our Second Iftar Together 🌙✨",
+          hoverText: "A simple meal, a beautiful evening, and another memory added to our story",
+        },
+
+               {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781633444/IMG_5269_u7z5pg.heic",
+          alt: "sec my birthday",
+          caption: "My Special Birthday Night 🎂🌙",
+          hoverText: "The perfect birthday celebration, sharing delicious food and beautiful moments with you.",
+        },
+
       ],
     },
     {
       id: "beach",
-      title: "Beach Memories",
-      emoji: "🏖️",
+      title: "My Favorite One",
+      emoji: "💞",
       coverImage:
-        "https://images.unsplash.com/photo-1726251903562-4af66fc61634?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBiZWFjaCUyMHN1bnNldCUyMG9jZWFufGVufDF8fHx8MTc3NjI0NTczN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      description: "Waves, sand, and beautiful sunsets",
+        "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781752864/download_7_avxh9s.jpg",
+      description: "The prettiest part of my gallery. 🤍",
       photos: [
         {
-          src: "https://images.unsplash.com/photo-1688421936241-f3f7f02e92cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBob2xkaW5nJTIwaGFuZHMlMjBiZWFjaHxlbnwxfHx8fDE3NTU4ODE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Beach walks together",
-          caption: "Beach Walks",
-          tall: true,
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781752441/IMG-20230612-WA0022_jvor5e.jpg",
+          alt: "my fav",
+          caption: "Pretty as Always 🥰",
+          hoverText: "Somehow she shines brighter than the sun, even on the cloudiest days",
         },
+
         {
-          src: "https://images.unsplash.com/photo-1506014299253-3725319c0f69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBob2xkaW5nJTIwaGFuZHM8ZW58MXx8fHwxNzU1ODgxMjUyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Couple holding hands",
-          caption: "Hand in Hand",
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781753246/IMG-20221029-WA0045_ppuwu0.jpg",
+          alt: "My Sunshine",
+          caption: "My Sunshine 🌞",
+          hoverText: "Bringing warmth wherever she goes, just like the sun on a beautiful day",
         },
+
         {
-          src: "https://images.unsplash.com/photo-1658851866325-49fb8b7fbcb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMGNvdXBsZSUyMHN1bnNldHxlbnwxfHx8fDE3NTU4NTQzNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Sunset moments",
-          caption: "Sunset Magic",
-          tall: true,
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781753428/IMG-20221031-WA0043_oqa3zb.jpg",
+          alt: "Happiness",
+          caption: "Happiness in Her Smile 😊",
+          hoverText: "She turns ordinary days into beautiful memories.",
         },
+
+       {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781753597/IMG-20230129-WA0025_1_exhuwg.jpg",
+          alt: "Lovely",
+          caption: "My Lovely Nadine 💖",
+          hoverText: "The best part of every chapter in my life is having you by my side, making every moment more beautiful and meaningful",
+        },
+
+        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781753768/IMG-20221107-WA0067_vhmvo0.jpg",
+          alt: "Pretty Girl",
+          caption: "Pretty Girl 😍",
+          hoverText: "Looking perfect in every little moment, just like she does in this photo",
+        },
+
+       {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781754072/IMG-20230630-WA0041_xsjhj6.jpg",
+          alt: "Beautiful Moments",
+          caption: "Beautiful Moments",
+          hoverText: "Too beautiful and precious to be real.",
+        },
+       {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781754203/IMG-20230708-WA0097_wpa1np.jpg",
+          alt: "Soft Smile",
+          caption: "Soft Smile 😊",
+          hoverText: "My favorite kind of happiness captured.",
+        },
+
+        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781754434/IMG-20230905-WA0070_bdfeur.jpg",
+          alt: "Lucky Me",
+          caption: "Lucky Me 😍",
+          hoverText: "Sometimes I still can't believe you're mine and that I get to call you my girlfriend.",
+        },
+
+        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781754896/IMG-20230924-WA0044_mtgyrk.jpg",
+          alt: "Simply Perfect",
+          caption: "Simply Perfect 😍",
+          hoverText: "Perfect in all the ways that matter most.",
+        },
+
+       {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781755109/IMG-20231221-WA0076_cyxurd.jpg",
+          alt: "Forever and Always",
+          caption: "Forever and Always ❤️",
+          hoverText: "My favorite person through every season of life, my forever and always.",
+        },
+
+      {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781770963/IMG-20240620-WA0113_ciq2lb.jpg",
+          alt: "My Daily Dose",
+          caption: "My Daily Dose of Happiness 😊",
+          hoverText: "comfort, and endless admiration in one beautiful person.",
+        },
+
+      {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781770962/IMG-20250621-WA0017_czqfzh.jpg",
+          alt: "Lucky Me",
+          caption: "Lucky Me 😍",
+          hoverText: "Sometimes I still can't believe you're mine and that I get to call you my girlfriend.",
+        },
+
+      {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781771139/IMG-20250719-WA0045_dafcjs.jpg",
+          alt: "Bright Eyes",
+          caption: "Bright Eyes",
+          hoverText: "Eyes that tell stories without saying a word 👀",
+        },
+
+      {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781771136/IMG-20250919-WA0115_jylzfu.jpg",
+          alt: "My Favorite Chapter",
+          caption: "My Favorite Chapter 📖",
+          hoverText: "The most beautiful part of my story is the chapter where you entered and made everything better.",
+        },
+
+              {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781771137/IMG-20250806-WA0020_kax3yz.jpg",
+          alt: "Effortlessly Beautiful",
+          caption: "Effortlessly Beautiful",
+          hoverText: "You make looking beautiful seem so easy, just like you do in this photo.",
+        },
+
+                      {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781771529/IMG-20260516-WA0134_ffean1.jpg",
+          alt: "Pretty Little Thing",
+          caption: "Pretty Little Thing",
+          hoverText: "You're the prettiest thing I've ever seen, and you don't even know it.",
+        },
+
+       {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781771529/IMG-20251229-WA0043_zvgms7.jpg",
+          alt: "Sweet Like You",
+          caption: "Sweet Like You",
+          hoverText: "You're so sweet, it's like you were made just for me.",
+        },
+
+        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781771621/IMG_0038_df77hf.jpg",
+          alt: "Timeless Beauty",
+          caption: "Timeless Beauty",
+          hoverText: "You're a timeless beauty, and you always look stunning.",
+         },
       ],
     },
+
+
     {
-      id: "celebrations",
-      title: "Celebrations",
-      emoji: "🎉",
+      id: "Tiny Sunshine",
+      title: "Tiny Sunshine",
+      emoji: "✨",
       coverImage:
-        "https://images.unsplash.com/photo-1768167444777-f586bb1a06ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBjZWxlYnJhdGlvbiUyMHBhcnR5JTIwYmFsbG9vbnN8ZW58MXx8fHwxNzc2MjQ1NzM4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      description: "Birthdays, anniversaries & special moments",
+        "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781803573/%C3%87%C4%B0%C3%87EK%C3%87%C4%B0_KIZ_-_WALPAPER_KIZ_jpuoff.jpg",
+      description: "The little girl who grew up to be my favorite person in the world.",
       photos: [
         {
-          src: "https://images.unsplash.com/photo-1619208110262-90c0438c174d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBsYXVnaGluZyUyMGhhcHB5fGVufDF8fHx8MTc1NTg4MTg0M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Happy celebration",
-          caption: "Joyful Celebrations",
-          hoverText: "Celebrating life's special moments with endless laughter and joy",
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781803869/IMG-20230622-WA0016_idgas5.jpg",
+          alt: " ",
+          caption: " ",
+          hoverText: "",
           tall: true,
         },
-        {
-          src: "https://images.unsplash.com/photo-1592865192090-844259a98ba5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBkYW5jaW5nJTIwdG9nZXRoZXJ8ZW58MXx8fHwxNzU1ODgxODQyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Dancing together",
-          caption: "Dance Parties",
-          hoverText: "Dancing through life together, one song at a time",
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781803870/IMG-20230622-WA0056_uokuij.jpg ",
+          alt: " ",
+          caption: " ",
+          hoverText: "",
+          tall: true,
         },
-        {
-          src: "https://images.unsplash.com/photo-1615663058740-1ef358ca72a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFydCUyMHNoYXBlZCUyMGJhbGxvb25zfGVufDF8fHx8MTc1NTg4MTI1M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Celebration balloons",
-          caption: "Love in the Air",
-          hoverText: "Our love floating high like these beautiful balloons",
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781803869/IMG-20230622-WA0067_l6e1or.jpg",
+          alt: " ",
+          caption: " ",
+          hoverText: "",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781806338/IMG-20210417-WA0074_obx3mg.jpg",
+          alt: " ",
+          caption: " ",
+          hoverText: "",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781803869/IMG-20230622-WA0018_gbdalx.jpg",
+          alt: " ",
+          caption: " ",
+          hoverText: "",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781803870/IMG-20230622-WA0064_byphfr.jpg",
+          alt: " ",
+          caption: " ",
+          hoverText: "",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781804039/IMG-20231007-WA0080_inx4f9.jpg",
+          alt: " ",
+          caption: " ",
+          hoverText: "",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781806441/Screenshot_2026-06-19_011342_gnr9ba.png",
+          alt: " ",
+          caption: " ",
+          hoverText: "",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781805740/Screenshot_2023-07-09-18-47-16-56_1c337646f29875672b5a61192b9010f9_dv1fi7.jpg",
+          alt: " ",
+          caption: " ",
+          hoverText: "",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781803870/IMG-20230622-WA0066_hczath.jpg",
+          alt: " ",
+          caption: " ",
+          hoverText: "",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781804060/IMG-20231007-WA0081_dmarjc.jpg",
+          alt: " ",
+          caption: " ",
+          hoverText: "",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781806650/Screenshot_2026-06-19_011631_ggttkg.png",
+          alt: " ",
+          caption: " ",
+          hoverText: "",
+          tall: true,
         },
       ],
     },
@@ -165,27 +436,110 @@ export function PhotoGallery({
       title: "Nature Escapes",
       emoji: "🌳",
       coverImage:
-        "https://images.unsplash.com/photo-1744160335022-d520b6fd6374?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBuYXR1cmUlMjBwYXJrJTIwb3V0ZG9vcnxlbnwxfHx8fDE3NzYyNDU3Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781771942/Choose_peace_not_love_ucajga.jpg",
       description: "Peaceful moments in nature",
       photos: [
         {
-          src: "https://images.unsplash.com/photo-1514770643069-54183731a981?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjB3YXRjaGluZyUyMHN0YXJzfGVufDF8fHx8MTc1NTg4MTg0NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Stargazing together",
-          caption: "Stargazing Nights",
-          hoverText: "Under the stars, dreaming of our future together",
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781874441/IMG_1337_mv0bwy.heic",
+          alt: "Quiet Adventures",
+          caption: "Quiet Adventures",
+          hoverText: "Escaping the noise and embracing the beauty around us.",
           tall: true,
         },
+
         {
-          src: "https://images.unsplash.com/photo-1730123481681-82a244d7cfc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMGZsb3dlcnMlMjBib3VxdWV0fGVufDF8fHx8MTc1NTg4MTg0M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Beautiful flowers",
-          caption: "Nature's Beauty",
-          hoverText: "Like these flowers, our love blooms more beautiful each day",
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781874441/IMG_0064_wdooaa.heic",
+          alt: "Endless Skies",
+          caption: "Endless Skies",
+          hoverText: "Where the horizon stretches farther than our worries",
+          tall: true,
         },
+
         {
-          src: "https://images.unsplash.com/photo-1619260288316-1dc66c32b718?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsb3ZlJTIwbGV0dGVycyUyMGZsb3dlcnN8ZW58MXx8fHwxNzU1ODgxMjUzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Flowers and love",
-          caption: "Garden Moments",
-          hoverText: "Peaceful moments surrounded by nature's beauty and your love",
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781874442/IMG_1710_v15hkk.heic",
+          alt: "Peaceful Places",
+          caption: "Peaceful Places",
+          hoverText: "Some places have a way of calming the soul, and this is one of them.",
+          tall: true,
+        },
+       
+        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781874443/IMG_1152_khin87.heic",
+          alt: "Somewhere Beautiful",
+          caption: "Somewhere Beautiful",
+          hoverText: "A place worth getting lost in for a while, just to find ourselves again.",
+          tall: true,
+        },
+
+        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781874443/IMG_3347_ymeqbf.heic",
+          alt: "Green Escape",
+          caption: "Green Escape",
+          hoverText: "A breath of fresh air and endless greenery to remind us of the beauty in simplicity.",
+          tall: true,
+        },
+
+               {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781874444/IMG_3594_etwwwk.jpg",
+          alt: "Nature's Masterpiece",
+          caption: "Nature's Masterpiece",
+          hoverText: "No artist could paint something this perfect ",
+          tall: true,
+        },
+
+               {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781874445/Screenshot_2026-06-19_194830_mg2y04.png",
+          alt: "The Great Escape",
+          caption: "The Great Escape",
+          hoverText: "A place to unwind and escape the hustle and bustle of everyday life.",
+          tall: true,
+        },
+
+               {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781874445/IMG_4786_srrv1b.heic",
+          alt: "Pretty in the Wild",
+          caption: "Pretty in the Wild",
+          hoverText: "Somehow the flowers have competition today, because you look just as beautiful",
+          tall: true,
+        },
+
+               {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781874445/IMG_5178_drcc62.heic",
+          alt: "Pretty View",
+          caption: "Pretty View",
+          hoverText: "Not sure if I'm looking at nature or perfection, but either way, I'm mesmerized.",
+          tall: true,
+        },
+
+               {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781874446/IMG_1989_syghvo.heic",
+          alt: "Beautiful Distraction",
+          caption: "Beautiful Distraction",
+          hoverText: "A moment of beauty that steals the show.",
+          tall: true,
+        },
+
+               {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781874447/Screenshot_2026-06-19_200226_btppjb.png",
+          alt: "Camera's Favorite",
+          caption: "Camera's Favorite",
+          hoverText: "Somehow every photo gets better with her in it",
+          tall: true,
+        },
+
+               {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781874448/IMG_0164_jvuly2.heic",
+          alt: "Mysterious Encounter",
+          caption: "Mysterious Encounter",
+          hoverText: "Exploring places that leave me speechless, but you always manage to leave me even more breathless.",
+          tall: true,
+        },
+
+               {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781874449/IMG_0058_zgfwre.heic",
+          alt: "Aquarium Date",
+          caption: "Aquarium Date",
+          hoverText: "Surrounded by thousands of fish, yet I only noticed one ",
           tall: true,
         },
       ],
@@ -195,15 +549,230 @@ export function PhotoGallery({
       title: "Special Moments",
       emoji: "💝",
       coverImage:
-        "https://images.unsplash.com/photo-1670786056283-c5a3835ccc8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsb3ZlJTIwbGV0dGVycyUyMHJvbWFudGljfGVufDF8fHx8MTc1NTg4MTg0NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781773807/download_8_tcgisw.jpg",
       description: "Those unforgettable intimate moments",
       photos: [
         {
-          src: "https://images.unsplash.com/photo-1670786056283-c5a3835ccc8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsb3ZlJTIwbGV0dGVycyUyMHJvbWFudGljfGVufDF8fHx8MTc1NTg4MTg0NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          alt: "Love letters",
-          caption: "Sweet Messages",
-          hoverText: "Every word I write to you comes straight from my heart",
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781877799/IMG-20230413-WA0079_bori7d.jpg",
+          alt: "Bukber trio",
+          caption: "Bukber trio",
+          hoverText: "A special Ramadan evening filled with us, good food, and unforgettable memories.",
+          tall: true,
         },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781878037/IMG_0015_m9gojh.heic",
+          alt: "My Wisuda Gweh",
+          caption: "My Wisuda Gweh",
+          hoverText: "Celebrating my graduation with my favorite people, especially you, who made the day even more special.",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781878130/IMG-20230708-WA0083_s51txc.jpg",
+          alt: "First Kondangan Koko ku",
+          caption: "First Kondangan Koko ku",
+          hoverText: "Another beautiful memory with you. Watching the bride and groom today, I couldn't help but wish that one day, it will be us celebrating our own special day together. ✨🤍",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781878389/IMG_7892_wrerqa.heic",
+          alt: "Special Moment",
+          caption: "Special Moment",
+          hoverText: "A moment that kita pergi belorahraga bounching bareng, and it was so much fun! I love how we can be silly together and create memories that make us laugh for years to come.",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781878795/IMG_0209_v7ktsx.heic",
+          alt: "Special Moment with my sister",
+          caption: "Special Moment with my sister",
+          hoverText: "A moment shared with my sister, filled with laughter and love.",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781878906/IMG_1273_d2cqvv.heic",
+          alt: "first our anniversary",
+          caption: "First Our Anniversary",
+          hoverText: "Our first anniversary together, a milestone we celebrate with joy and love.",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781879055/IMG-20231230-WA0003_zggnfa.jpg",
+          alt: "celebrate my friend's birthday",
+          caption: "Celebrating My Friend's Birthday",
+          hoverText: "A fun celebration with my dear friend, filled with laughter",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781883301/IMG_5141_gxefsv.heic",
+          alt: "your birthday dinner",
+          caption: "Your Birthday Dinner",
+          hoverText: "A special dinner to celebrate your birthday, filled with love and delicious food.",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781883302/IMG_1793_wcydt6.heic",
+          alt: "my birthday dinner",
+          caption: "My Birthday Dinner",
+          hoverText: "A special dinner to celebrate my own birthday, filled with love and delicious food.",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781883301/IMG-20240510-WA0030_ef3axn.jpg",
+          alt: "MRT DATE",
+          caption: "MRT DATE",
+          hoverText: "A special moment shared with my MRT, walking together in gbk and another food hunting, and it was so much fun! I love how we can be silly together and create memories that make us laugh for years to come.",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781883302/IMG_4128_lxghtb.heic",
+          alt: "Capping Day",
+          caption: "Capping Day",
+          hoverText: "A memorable day filled with excitement and celebration.",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781883305/IMG_1165_cm4vbm.heic",
+          alt: "Our Proper Iftar",
+          caption: "Our Proper Iftar",
+          hoverText: "A special moment shared during our proper Iftar, filled with gratitude and delicious food.",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781884305/IMG-20240914-WA0069_zagnuz.jpg",
+          alt: "Kidzania double Date",
+          caption: "Kidzania double Date",
+          hoverText: "A fun day spent at Kidzania with our friends, filled with laughter and excitement.",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781884439/IMG-20241112-WA0049_npzb3h.jpg",
+          alt: "photo with my friend",
+          caption: "photo with my friend",
+          hoverText: "A fun moment shared with my friend, but my favorite part was being with you, making the day even more special.",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781884509/IMG-20241216-WA0025_nprdty.jpg",
+          alt: "scooter date",
+          caption: "Scooter Date",
+          hoverText: "A fun day out on our scooters, exploring the park together.",
+          tall: true,
+        },
+
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781884657/copy_of_img-20250115-wa0065_fvvl19.jpg",
+          alt: "Bekasoy Sushi Date",
+          caption: "Bekasoy Sushi Date",
+          hoverText: "A delicious Sushi meal at Bekasoy, sharing bites and great conversation.",
+          tall: true,
+        },
+
+                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781884768/IMG-20250919-WA0087_wu3k4e.jpg",
+          alt: "Hachi Date",
+          caption: "Hachi Date",
+          hoverText: "kapan lagi nyamper pacar ngekos ke sunter sambil bawa buket bunga, and it was so much fun!",
+          tall: true,
+        },
+
+                        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781884908/IMG-20251016-WA0060_ishho9.jpg",
+          alt: "Binals jualan baju",
+          caption: "Binals jualan baju",
+          hoverText: "A fun day after at the bazaar, sharing laughs and enjoying the atmosphere together.",
+          tall: true,
+        },
+
+                                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781885132/IMG-20260321-WA0313_kho53w.jpg",
+          alt: "Eid Mubarak Celebration",
+          caption: "Eid Mubarak Celebration",
+          hoverText: "Celebrating Eid Mubarak with Your family,Panik banget tapi First time dateng ke acara keluarga kamu",
+          tall: true,
+        },
+
+        
+                        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781885235/IMG-20260429-WA0071_tm5fu6.jpg",
+          alt: "my birthday dinner again",
+          caption: "My Birthday Dinner Again",
+          hoverText: "Enjoying a delicious birthday dinner with my favorite people in the world.",
+          tall: true,
+        },
+
+                                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781885291/IMG_8697_c9jlgi.heic",
+          alt: "our anniversary dinner",
+          caption: "Our Anniversary Dinner",
+          hoverText: "Celebrating our anniversary with a romantic dinner, maaf disini km kurang menyukainya",
+          tall: true,
+        },
+
+        
+                        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781885418/IMG_3407_av2xyy.heic",
+          alt: "painting date",
+          caption: "Painting Date",
+          hoverText: "Spending a creative afternoon painting with my favorite person in home, and it was so much fun! I love how we can be silly together and create memories that make us laugh for years to come.",
+          tall: true,
+        },
+
+                                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781885494/IMG_4022_q1v1z0.heic",
+          alt: "Merakit bunga bersama",
+          caption: "Merakit bunga bersama",
+          hoverText: "Spending a lovely afternoon assembling beautiful flowers together and the result was stunning",
+          tall: true,
+        },
+
+        
+                        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781885573/IMG_1337_1_i3jawb.heic",
+          alt: "Trip bandung together",
+          caption: "Trip bandung together",
+          hoverText: "Exploring the beautiful city of Bandung with my favorite person.",
+          tall: true,
+        },
+
+                                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781885647/IMG_2830_sbxucf.heic",
+          alt: "Our another iftar together",
+          caption: "Our another iftar together",
+          hoverText: "Sharing a delicious iftar Pizza and this pizza became our favorite pizza",
+          tall: true,
+        },
+
+        
+                        {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781885834/IMG-20260602-WA0048_ybb5ws.jpg",
+          alt: "My First Bekel di Kantor",
+          caption: "My First Bekel di Kantor",
+          hoverText: "My first bekel at the office made by my girlfriend's hands with heart and love, and it was so delicious!",
+          tall: true,
+        },
+
+                                {
+          src: "https://res.cloudinary.com/dv7ul6sck/image/upload/q_auto/f_auto/v1781885995/IMG-20260614-WA0012_q5sabi.jpg",
+          alt: "bonus",
+          caption: "BONUSS BTR JUARAAAAA",
+          hoverText: "ANJAYY BTR JUARA MPL UNTUK PERTAMA KALINYA, AND IT WAS SO MUCH FUN!",
+          tall: true,
+        },
+
       ],
     },
   ];

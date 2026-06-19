@@ -86,7 +86,7 @@ export function DinnerInvitation({ onClose }: DinnerInvitationProps) {
                     <Clock className="text-pink-500 mt-1 flex-shrink-0" size={24} />
                     <div>
                       <p className="font-semibold text-pink-700">Time</p>
-                      <p className="text-pink-600">6:00 PM - A night to remember</p>
+                      <p className="text-pink-600">5:00 PM - An afternoon to remember</p>
                     </div>
                   </div>
 
@@ -94,7 +94,7 @@ export function DinnerInvitation({ onClose }: DinnerInvitationProps) {
                     <MapPin className="text-pink-500 mt-1 flex-shrink-0" size={24} />
                     <div>
                       <p className="font-semibold text-pink-700">Location</p>
-                      <p className="text-pink-600">[At Henshin Restaurant]</p>
+                      <p className="text-pink-600">[At Skye Dinning Restaurant]</p>
                     </div>
                   </div>
                 </div>
